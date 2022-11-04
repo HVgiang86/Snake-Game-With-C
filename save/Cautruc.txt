@@ -1,0 +1,10 @@
+gameMode
+level
+length
+score
+direction.x direction.y
+food.x food.y
+snake.x: 1 -> length
+snake.y: 1 -> length
+snake.x0: 1 -> length
+snake.y0: 1 -> length

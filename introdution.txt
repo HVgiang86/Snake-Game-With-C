@@ -1,0 +1,12 @@
+*Rắn săn mồi*
+Tác giả: Giang -CT5D
+Ngôn ngữ: C
+IDE: Codeblock
+Thư viện sử dụng: winbgim.h
+Tính năng:
+	- 2 chế độ chơi: Cổ điển, hiện đại
+	- Play/Pause khi đang chơi
+	- Lưu điểm cao
+	- Lưu game
+	- 4 cấp độ chơi
+	- Điều khiển bằng bàn phím

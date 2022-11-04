@@ -1,0 +1,10 @@
+1. Tải và cài đặt compiler 32 bit TDM - GCC -32 tại: https://github.com/jmeubank/tdm-gcc/releases/download/v9.2.0-tdm-1/tdm-gcc-9.2.0.exe
+2. Chọn bộ compiler này trong settings: CodeBlock - > settings -> Compiler -> ToolChain executables
+   Tại Compiler's installation directory: duyệt đến thư mục C:\TDM-GCC-32
+3. Tải thư viện đồ hoạ Wingbim tại đây http://www.mediafire.com/download/q4ldrr5svd1q4xh/VietSource.net_-_Graphics_in_Dev-C.zip
+   Giải nén, copy file libbgi.a vào thư mục C:\TDM-GCC-32\lib
+   Copy file graphics.h và winbgim.h vào C:\TDM-GCC-32\include
+4. Trong CodeBlocks: settings -> Linker Settings
+   Tại linker library: duyệt tìm đến file C:\TDM-GCC-32\lib\libbgi.a -> Ok
+   Tại Other linker option: paste dòng này: -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32
+   Bấm ok
